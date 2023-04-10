@@ -6,10 +6,10 @@ public class Animal {
     private String nome;
     private String tipo;
     private String alimentacao;
-    private int peso;
+    private double peso;
     private int idade;
 
-    public Animal(String nome, String tipo, String alimentacao, int peso, int idade) {
+    public Animal(String nome, String tipo, String alimentacao, double peso, int idade) {
         this.nome = nome;
         this.tipo = tipo;
         this.alimentacao = alimentacao;
@@ -32,7 +32,7 @@ public class Animal {
         return alimentacao;
     }
 
-    public int getPeso() {
+    public double getPeso() {
         return peso;
     }
 
